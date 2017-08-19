@@ -1,0 +1,35 @@
+{
+  "name": "bonchans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanto85/bonchans.git"
+  },
+  "author": "Juan Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanto85/bonchans/issues"
+  },
+  "homepage": "https://github.com/juanto85/bonchans#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "react": "^15.6.1",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^3.5.5",
+    "webpack-bundle-tracker": "^0.2.0",
+    "webpack-dev-server": "^2.7.1"
+  }
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --color",
+    "build-production": "webpack --config webpack.prod.config.js --progress --colors",
+    "watch": "node server.js"
+  }
+}
